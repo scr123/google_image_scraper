@@ -176,9 +176,6 @@ def scroll(driver, time_sleep, num_images):
 
     # Scroll as long as current number
     while curr_num_images < num_images:
-        print()
-        print(f"curr_num_images = {curr_num_images}  num_images = {num_images}")
-        print()
         driver.execute_script('\
         window.scrollTo(0,document.body.scrollHeight)')
 
