@@ -33,7 +33,7 @@ def parse_args():
 
     # Create parser object
     parser = argparse.ArgumentParser(
-        description='CopyrightThis generates a copyright avoided video')
+        description='Scrapes Google Images')
 
     # Populate parser arguments
     parser.add_argument("-q", "--query",
